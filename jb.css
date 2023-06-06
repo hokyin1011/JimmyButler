@@ -1,0 +1,105 @@
+
+.navbar{
+    background-color: rgb(227, 227, 226) !important; 
+    font-family:cursive;
+    font-size: 30px;
+}
+.navbar-brand{
+  font-size: 40px;
+}
+.hr{
+  font-size: 24px;
+}
+.navbar form button{
+    background-color: white;
+    color:black;
+    border: 0px;
+}
+.dropdown-item:hover{
+  color:blue;
+  text-decoration: underline;
+
+}
+.nav-item:hover{
+  color:rgb(255, 255, 255);
+  text-decoration: underline;
+
+}
+#more {display: none;}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+.social_media{
+    background-color:rgb(227, 227, 226);
+}
+.jumbotron{
+  position: relative;
+  padding:0 !important;
+  margin-top:70px !important;
+  background-color: #960909;
+  color: white;
+  margin-top: 23px;
+  margin-bottom: 0 !important;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  width:1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.carousel{
+width:1600px;
+margin: auto;
+}
+
+.content-box {
+  background-color:rgb(195, 3, 3);
+  padding: 20px;
+  text-align: center;
+}
+.inner-box {
+  background-color: rgb(135, 13, 13);
+  padding: 10px;
+  color: white;
+}
+.display-3,
+.lead{
+  font-family: "Times New Roman", serif;
+
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  background-color:rgb(195, 3, 3) ;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.backgroundbox{
+  border: 3px solid black;
+  padding: 20px;
+}
