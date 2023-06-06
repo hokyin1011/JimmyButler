@@ -47,14 +47,22 @@
     background: #3B5998;
     color: white;
   }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
   
-  /* Twitter */
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
   .fa-twitter {
     background: #55ACEE;
     color: white;
   }
 .social_media{
-    background-color:rgb(125,125,125);
+    background-color:rgb(186, 12, 47);
 }
 
 .carousel{
@@ -147,4 +155,7 @@ li {
 
 p {
     margin-bottom: 10px;
+}
+#quote{
+    text-align: right;
 }

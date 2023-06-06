@@ -53,19 +53,18 @@
     background: #55ACEE;
     color: white;
   }
-.social_media{
-    background-color:rgb(125,125,125);
-}
-.jumbotron{
-  position: relative;
-  padding:0 !important;
-  margin-top:70px !important;
-  background-color: #eee;
-  margin-top: 23px;
-  margin-bottom: 0 !important;
-  font-family: Arial, sans-serif;
-  font-size: 24px;
 
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+.social_media{
+    background-color:rgb(0, 169, 79) ;
 }
 
 .carousel{
