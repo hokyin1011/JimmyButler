@@ -7,8 +7,11 @@
 </head>
 
 <body>
-    <h1>NBA Player Stats</h1>
-    <table class="Crom_table__p1iZz">
+    <h1>NBA Player Stats</h1> 
+
+    <script src="../dist/table2excel.js"></script>
+
+    <table class="Stats_table">
         <thead>
             <tr class="Crom_colgroup__qYrzI">
                 <th colspan="5"
@@ -1787,6 +1790,14 @@
             </tbody>
         </table>
     </div>
+    <button id="downloadexcel">Export to Excel</button>
+    <script>
+        var table2excel = new Table2Excel();
+
+        document.getElementById('downloadexcel').addEventListener('click',function(){       
+        table2excel.export(document.querySelectorAll('table'));
+        });
+    </script>
 </body>
 
 </html>
